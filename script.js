@@ -26,7 +26,7 @@ function data(){
     
         console.log(res.data);
         
-        temp.innerHTML = res.data.current.temp_c
+        temp.innerHTML = res.data.current.temp_c + '°C'
         city.innerHTML = res.data.location.name
         humidity.innerHTML = res.data.current.humidity + '%'
         wind.innerHTML = res.data.current.wind_kph + ' kph'
